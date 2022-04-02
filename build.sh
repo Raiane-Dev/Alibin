@@ -13,7 +13,7 @@ read db_password ;
 
 arg_database="DB_DATABASE="$db_database ;
 arg_username="DB_USERNAME="$db_username ;
-arg_password"DB_PASSWORD="$db_password ;
+arg_password="DB_PASSWORD="$db_password ;
 
 echo $arg_database >> ./.env.example ;
 echo $arg_username >> ./.env.example ;
